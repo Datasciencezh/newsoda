@@ -1,0 +1,499 @@
+/* 
+Theme Name: Hello Elementor Child
+Theme URI: https://github.com/elementor/hello-theme-child/
+Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
+Author: Elementor Team
+Author URI: https://elementor.com/
+Template: hello-elementor
+Version: 2.0.0
+Text Domain: hello-elementor-child
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+
+/* Personnalisation de la classe "admin-link" */
+.admin-link {
+    margin-left: 45px; 
+    margin-right: 45px; 
+    text-transform: none;
+}
+.elementor-840 .elementor-element.elementor-element-6d93381 .boostify-menu > li > a{
+    text-transform: none;
+
+}
+
+
+
+/* Elément du formulaire à nous rencotrer à espacer */
+
+input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea{
+    border: none;
+    margin-bottom: 25px;
+}
+
+
+.mon-input{
+    height: 71px;
+    width: 383px !important ;
+}
+
+
+/* Bouton commandé */
+
+.elementor-111 .elementor-element.elementor-element-c0a1a58 .elementor-button{
+width: 198px;
+height: 55px;
+    }
+
+
+
+/* Shape divider page 1 */
+.elementor-111 .elementor-element.elementor-element-366b115:not(.elementor-motion-effects-element-type-background), .elementor-111 .elementor-element.elementor-element-366b115 > .elementor-motion-effects-container > .elementor-motion-effects-layer{
+    border-bottom: 0px solid #E3D9D0;
+    border-bottom-right-radius: 30% 5%;
+    border-bottom-left-radius: 30% 5%;
+    box-shadow: 0px 5px 0px 4px #E3D9D0;
+    }
+
+
+
+
+
+
+/* Canette Nous rencontrer */
+
+.elementor-285 .elementor-element.elementor-element-8a447f1{
+    width: 1440px;
+}
+.elementor-285 .elementor-element.elementor-element-018b05b{
+    display: table-footer-group;
+}
+
+.elementor-840 .elementor-element.elementor-element-6d93381 .boostify-menu > li:hover > a{
+
+    color:black;
+}
+
+
+.elementor-840 .elementor-element.elementor-element-6d93381 .boostify-menu li.current-menu-item a{
+    color:black;
+}
+
+
+
+
+
+/* Formulaire nous rencontrer */
+
+#A {
+    margin-left: 30%!important;
+    background-color: #E0B9B4;
+    border: none;
+    color:white;
+    width: 155px;
+}
+
+.n1 {
+    color: black;
+    width: 380px;
+}
+
+.name1{
+    border: none!important;
+    height: 70px;
+    margin-top: 10px;
+}
+
+
+
+.m1 {
+    color: black;
+}
+
+.message1{
+  
+        width: 380px;
+        height: 237px;
+        resize: vertical;
+        border: 2px solid #ccc;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+        border: none!important;
+        margin-top: 10px;
+
+    }
+    
+
+.e1 {
+    color: black;
+    width: 380px;
+}
+
+.mail1{
+    border: none!important;
+    height: 70px;
+    margin-top: 10px;
+
+}
+
+
+  
+/* Info page commander B=btn */    
+#B {
+     margin-left: 305px!important; 
+     color:white;
+     background-color: #E0B9B4;  
+     border: none;
+     width: 198px; 
+     height: 55px;
+     margin-bottom: 30px;
+    }
+
+h2{
+    color: white;
+    font-family: "Syne";
+    font-size: 700;
+} 
+
+p{
+    color: white;
+    font-family: "Syne";
+    font-size: 400;
+  
+}
+
+
+
+/* Style pour le "0" dans le champ de téléphone */
+.tel-field{
+    font-size: 16px; /* Taille de la police */
+    text-align: center; /* Centrer le texte horizontalement */
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    border: none!important;
+    height: 56px;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+
+
+/* Compteur */
+
+/* Style pour chaque colonne */
+.qty-colonne {
+    display: inline-block; /* Afficher les colonnes en ligne */
+    vertical-align: top; /* Aligner les colonnes en haut */
+    margin-right: 12px; /* Marge entre les colonnes (ajustez selon vos besoins) */
+    width: 23%; /* Répartir les colonnes sur 23% de la largeur totale */
+    box-sizing: border-box; /* Inclure le padding et la bordure dans la largeur */
+    text-align: center; /* Aligner le contenu au centre horizontalement */
+    padding: 10px; /* Espace autour du contenu */
+    border-radius: 5px; /* Coins arrondis (changez-la selon vos besoins) */
+}
+
+
+@media screen and (max-width: 768px) {
+    .qty-colonne {
+        width: 100%; /* 100% de la largeur sur les écrans plus petits */
+        margin-right: 0; /* Plus de marge sur les écrans plus petits */
+    }
+}
+
+
+
+
+.qty-form{
+    display: flex;
+
+}
+
+.compte{
+    width: 51px;
+   position: relative;
+}
+
+.titre-avec-image {
+    background-image: url('http://planty.local/wp-content/uploads/2023/08/jeremy-bezanger-0QgbyZdhX7k-unsplash-1.png'); /* Remplacez 'chemin-vers-votre-image.jpg' par le chemin de votre image */
+    background-size: cover; /* Ajustez la taille de l'image à la boîte du titre */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    color: #fff; /* Couleur du texte du titre (changez-la selon vos besoins) */
+    padding-left: 20px; /* Espace autour du texte du titre */
+    height:128px;
+    display: flex;
+    align-items: center;
+    width: 193px;
+    font-family: Syne;
+   
+}
+
+.titre-avec-image2 {
+    background-image: url('http://planty.local/wp-content/uploads/2023/08/estudio-bloom-tOitjphtIXU-unsplash-1.png'); 
+    background-size: cover; /* Ajustez la taille de l'image à la boîte du titre */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    color: #fff; /* Couleur du texte du titre (changez-la selon vos besoins) */
+    padding-left: 20px; /* Espace autour du texte du titre */
+    height:128px;
+    display: flex;
+    align-items: center;
+    width: 193px;
+    font-family: Syne;
+   
+}
+
+
+
+.titre-avec-image3 {
+    background-image: url('http://planty.local/wp-content/uploads/2023/09/rodion-kutsaev-4k8xEFW4_3Q-unsplash-1.png'); 
+    background-size: cover; /* Ajustez la taille de l'image à la boîte du titre */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    color: #fff; /* Couleur du texte du titre (changez-la selon vos besoins) */
+    padding-left: 20px; /* Espace autour du texte du titre */
+    height:128px;
+    display: flex;
+    align-items: center;
+    width: 193px;
+    font-family: Syne;
+   
+}
+
+.titre-avec-image4 {
+    background-image: url('http://planty.local/wp-content/uploads/2023/08/estudio-bloom-ezqnxsqUZ80-unsplash-1.png'); 
+    background-size: cover; /* Ajustez la taille de l'image à la boîte du titre */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    color: #fff; /* Couleur du texte du titre (changez-la selon vos besoins) */
+    padding-left: 20px; /* Espace autour du texte du titre */
+    height:128px;
+    display: flex;
+    align-items: center;
+    width: 193px;
+    font-family: Syne;
+   
+}
+
+/* Styles de police pour le texte du titre */
+
+.titre-avec-image h3 {
+    font-family: Syne;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0; 
+}
+
+
+.titre-avec-image2 h3 {
+    font-family: Syne;
+    font-size: 21px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+}
+
+.titre-avec-image3 h3 {
+    font-family: Syne;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+    padding-left: 18px;
+}
+
+
+.titre-avec-image4 h3 {
+    font-family: Syne;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+
+/* Formulaire quantité style pour le bouton "Plus" */
+/* Formulaire quantité style pour le bouton "Plus" */
+#bouton-plus {
+    background-color: #DC9F96;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    padding-top:3px;
+    padding: 5px 10px;
+    line-height: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-top:16px;
+    height:29px;
+}
+
+/* Style pour le bouton "Moins" */
+#bouton-moins {
+    display: flex;
+    background-color: #DC9F96;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 21px;
+    padding-top:5px;
+    padding: 5px 10px;
+    line-height: 16px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: 1px solid #fff; /* Ajout de la bordure droite */
+
+
+}
+
+#bouton-moins::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px; /* Ajustez la hauteur de la barre supérieure */
+    background-color: white; /* Couleur de la barre supérieure */
+    border-top-left-radius: 4px; /* Ajustez la bordure selon les coins */
+    border-top-right-radius: 4px;
+}
+
+.bouton-ok{
+
+    background-color: #E0B9B4;
+    margin-top: 16px;
+    margin-left: 15px;
+    width: 100px;
+    color: #fff;
+    border: none;
+    height: 56px;
+
+}
+
+[type=button]:focus, [type=button]:hover, [type=submit]:focus, [type=submit]:hover, button:focus, button:hover{
+    
+
+}
+
+/* Annuler le :hover du style indésirable dans le fichier externe */
+[type=button]:hover, [type=submit]:hover, button:hover {
+    /* Remplacer les styles indésirables par des styles par défaut */
+    background-color: #E0B9B4;
+    color: #fff;
+    border: none;
+ 
+}
+
+
+
+
+/* div compteur */
+
+.elementor-13 .elementor-element.elementor-element-65e82d1{
+    margin-bottom: -40px;
+}
+
+
+
+/* Barre de séparation formulaire INFO */
+/* Style pour les rangées du formulaire */
+
+  
+  /* Appliquer le style aux colonnes */
+  .colonne {
+    width: 50%; /* Une colonne occupe 50% de la largeur */
+    box-sizing: border-box; /* Inclure le padding et la bordure dans la largeur */
+    padding: 10px;
+    float: left; /* Aligner les colonnes côte à côte */
+    position: relative;
+  }
+  
+  /* Style de la séparation verticale */
+  .rang-form .separation {
+    width: 1px; /* Largeur de la séparation */
+    background-color: #ccc; /* Couleur de la séparation */
+    height: 419px; /* Hauteur égale à la hauteur des colonnes */
+    position: absolute; /* Position absolue par rapport aux colonnes */
+    top: 15px; /* Aligner en haut de la colonne */
+    bottom: 0; /* Aligner en bas de la colonne */
+    left: 420px; /* Aligner au milieu des colonnes */
+    transform: translateX(-50%); /* Déplacer de -50% de sa propre largeur vers la gauche */
+    margin-left: 12px;
+  }
+  
+
+
+
+
+
+
+
+    
+
+/* Commander info */
+
+#formulaire-responsive {
+        max-width:800px 
+        margin:0 auto;
+        width:100%;
+    }
+    .rang-form {
+        width: 100%;
+    }
+    .demi-colonne, .colonne {
+        float: left;
+        position: relative;
+        padding-left: 37px;
+    
+        -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box
+    }
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .demi-colonne1{
+        float: left;
+        position: relative;
+        padding-left: 10px;
+        width: 50%;
+    }
+
+
+    .label{
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+
+    
+    
+    /**---------------- Media query ----------------**/
+    @media only screen and (min-width: 48em) { 
+        .demi-colonne {
+            width: 50%;
+        }
+    }  
+
+
+

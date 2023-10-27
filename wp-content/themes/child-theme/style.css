@@ -1,0 +1,105 @@
+/*
+Theme Name: theme child-theme
+Template: hello-elementor
+*/
+
+
+
+.elementor-73 .elementor-element.elementor-element-189dd3a .elementor-button {
+  width: 100%;
+}
+
+
+.elementor-align-center .elementor-button {
+  width: 195px;
+  height: 55px;
+
+}
+
+.elementor-widget:not(:last-child) {
+  margin-bottom: 0px;
+}
+
+/* Nous rencontrer modifier formulaire */
+
+#A {
+  margin-left: 35%!important;}
+
+
+
+
+/*
+#ECE2DA background color
+Planty, c'est la première boisson énergisante composée à 100% de produits naturels. 
+Avec son goût frais et fruité, retrouvez votre énergie grâce aux plantes riches en vitamine B2, 
+à n'importe quel moment de la journée.
+*/
+
+
+
+.wpcf7-checkbox {
+  color: white;
+}
+
+
+
+
+/** Nous rencontrer bouton envoyer style.min.css **/
+
+
+
+.elementor-shape-bottom{
+
+  box-shadow: inset 0px -10px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+/* formulaire commande changer de couleur */
+
+#wpcf7-cf7sg-form-commande .cf7sg-container .cf7-smart-grid.has-grid .row {
+  color: #ccc !important;
+}
+
+
+
+
+/* Avec le plugin multistep */
+
+
+#formulaire-responsive {
+	max-width:600px /*-- à modifier en fonction de la largeur désirée --*/;
+	margin:0 auto;
+        width:100%;
+}
+.rang-form {
+	width: 100%;
+}
+.demi-colonne, .colonne {
+	float: left;
+	position: relative;
+	padding: 0.65rem;
+	width:100%;
+	-webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/**---------------- Media query ----------------**/
+@media only screen and (min-width: 48em) { 
+	.demi-colonne {
+		width: 50%;
+	}
+}
+
+
+.elementor-13 .elementor-element.elementor-element-4940ab8 .elementor-divider{
+
+  padding-left: 185px;
+  
+}
